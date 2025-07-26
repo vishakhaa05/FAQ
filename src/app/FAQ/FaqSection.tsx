@@ -75,7 +75,7 @@ const faqs = [
 export default function FaqSection() {
   return (
     <section className="max-w-3xl mt-60 mx-auto px-4 py-12 text-blue-900">
-      <h2 className="text-3xl font-bold mb-8 text-center text-blue-900">FAQs</h2>
+      <h2 className="text-3xl font-bold mb-8 text-center text-blue-900">Some question you may ask about our company.</h2>
       {faqs.map((item, i) => (
         <FaqCard key={i} question={item.question} answer={item.answer} />
       ))}

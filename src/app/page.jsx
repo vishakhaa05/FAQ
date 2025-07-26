@@ -5,6 +5,7 @@ export default function HomePage() {
     <>
       <Herosection/>
       <FaqSection />
+      
     </>
   )
 }
